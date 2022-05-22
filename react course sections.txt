@@ -1,0 +1,15 @@
+22. Project setup
+23. Quick Figma Walkthrough
+24. Navbar & Styling
+25. Main Section
+26. Color the bullets
+27. Add background logo
+28. Section 1 Solo Project
+29. Section 1 Recap
+
+A video of me going through Scrimba's "Learn React for free" course and trying to explain each module as a go. In this video I will be looking at the following lesson(s):
+
+
+npx create-react-app folder-name
+cd folder-name
+npm start
