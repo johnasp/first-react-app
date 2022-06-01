@@ -1,3 +1,5 @@
+$cyan: #00D8FF;
+
 html, body {
    margin: 0;
    padding: 0;
@@ -17,13 +19,21 @@ header {
    display: flex;
    justify-content: space-between;
    padding: 2em;
-   font-size: 22px;
-   div {
+   .logo-header {
       display: flex;
       align-items: center;
-      img {
+      .logo-img {
          width: 40px;
          height: auto;
+         margin-right: 8px;
+      }
+      .logo-h1 {
+         color: $cyan;
+         margin: 0;
       }
    } 
+   .header-nav {
+      display: flex;
+      align-items: center;
+   }
 }

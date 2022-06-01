@@ -6,11 +6,11 @@ import logo from './images/logo192.png'; // Telling webpack that index.js uses t
 ReactDOM.render( 
    <div className="wrapper">
       <header>
-         <div>
-            <img src={logo} alt="React logo"  />
-            <h1>ReactFacts</h1>
+         <div className="logo-header">
+            <img src={logo} alt="React logo" className="logo-img"  />
+            <h1 className="logo-h1">ReactFacts</h1>
          </div>
-         <nav>React Course - Project 1</nav>
+         <nav className="header-nav">React Course - Project 1</nav>
       </header>
       <div className="content">
          <h2>Fun facts about react</h2>
